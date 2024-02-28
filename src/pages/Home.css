@@ -1,0 +1,9 @@
+#home-page {
+	--ion-background-color: hsl(45, 67%, 99%);
+}
+
+#home-page ion-title.md {
+	font-size: 2rem;
+	padding: 1.5rem 2rem;
+	padding-top: 3rem;
+}

@@ -1,0 +1,27 @@
+ion-item {
+  --padding-start: 1.5rem;
+  --inner-padding-end: 1.5rem;
+  --border-style: none;
+}
+
+ion-label {
+  border-radius: 8px;
+  border: 1px solid var(--Neutral-neutral-10, hsl(228, 16%, 94%));
+  background: hsl(0, 0%, 100%);
+  margin-bottom: 4px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  padding: 1rem;
+}
+
+ion-item .wrap {
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1.5rem;
+}
+
+ion-item .title {
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}

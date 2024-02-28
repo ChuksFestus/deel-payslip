@@ -1,0 +1,46 @@
+#payslip .heading {
+  font-size: 2rem;
+  padding: 1.5rem 0;
+  --color: hsl(221, 76%, 10%);
+}
+
+#payslip ion-content {
+  --padding-start: 1.5rem;
+  --padding-end: 1.5rem;
+}
+
+.dist {
+  color: hsl(0, 0%, 45%);
+}
+
+ion-card {
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  padding: 1rem;
+  background: #f5f5f5;
+  margin-top: 2rem;
+}
+
+.cst-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cst-grid h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.text-right {
+  text-align: right;
+}
+
+ion-card p {
+  margin-bottom: 4px;
+}
+
+ion-button {
+  --box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+  height: 50px;
+}
